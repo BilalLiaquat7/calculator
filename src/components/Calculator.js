@@ -3,7 +3,7 @@ import './style.css';
 export default function Calculator() {
   return (
     <div className='mainSection'>
-      <input className='input'/>
+      <input className='input' readOnly='readonly'/>
       <div className='row'>
         <button className="simpleButton">AC</button>
         <button className="simpleButton">+/-</button>
@@ -27,6 +27,11 @@ export default function Calculator() {
         <button className="simpleButton">2</button>
         <button className="simpleButton">3</button>
         <button className="expressionButton">+</button>
+      </div>
+      <div className='row'>
+        <button className="zeroButton">0</button>
+        <button className="simpleButton">.</button>
+        <button className="expressionButton">=</button>
       </div>
     </div>
   );

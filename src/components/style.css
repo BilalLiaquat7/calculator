@@ -15,6 +15,18 @@
   background-color: rgb(210, 205, 205);
 }
 
+.zeroButton {
+  display: flex;
+  flex-direction: row;
+  font-size: large;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  width: 200px;
+  height: 80px;
+  background-color: rgb(210, 205, 205);
+}
+
 .expressionButton {
   display: flex;
   flex-direction: row;
@@ -29,10 +41,13 @@
 
 .input {
   display: flex;
-  font-size: large;
+  font-size: xx-large;
+  font-weight: bold;
+  color: white;
+  text-align: right;
   padding: 12px;
   height: 50px;
-  width: 394px;
+  width: 374px;
   background-color: rgb(155, 153, 153);
 }
 
