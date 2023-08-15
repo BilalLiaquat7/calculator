@@ -1,0 +1,57 @@
+.mainSection {
+  height: 100vh;
+  width: 100%;
+}
+
+.simpleButton {
+  display: flex;
+  flex-direction: row;
+  font-size: large;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  width: 100px;
+  height: 80px;
+  background-color: rgb(210, 205, 205);
+}
+
+.zeroButton {
+  display: flex;
+  flex-direction: row;
+  font-size: large;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  width: 200px;
+  height: 80px;
+  background-color: rgb(210, 205, 205);
+}
+
+.expressionButton {
+  display: flex;
+  flex-direction: row;
+  font-size: large;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  width: 100px;
+  height: 80px;
+  background-color: rgb(255, 136, 0);
+}
+
+.input {
+  display: flex;
+  font-size: xx-large;
+  font-weight: bold;
+  color: white;
+  text-align: right;
+  padding: 12px;
+  height: 50px;
+  width: 374px;
+  background-color: rgb(155, 153, 153);
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
