@@ -15,7 +15,6 @@ export default function Quote() {
         .then((resp) => resp.json())
         .then((quote) => {
           setLoading(false);
-          console.log(quote[0].quote);
           setQuote(quote[0].quote);
         })
         .catch((error) => setError(error));
