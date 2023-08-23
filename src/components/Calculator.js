@@ -15,6 +15,8 @@ export default function Calculator() {
   };
 
   return (
+    <div className='main'>
+    <h2>Lets do some math!</h2>
     <div className="mainSection">
       <div className="input">{value.total} {value.operation} {value.next}</div>
       <div className="row">
@@ -84,6 +86,7 @@ export default function Calculator() {
           =
         </button>
       </div>
+    </div>
     </div>
   );
 }
